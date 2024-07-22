@@ -1,0 +1,155 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;    
+  
+  
+   
+}
+body{
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:linear-gradient(rgba(193, 176, 158, 0.55),rgba(193, 176, 158, 0.55)),url(/Images/contact.jpg);
+    background-size:cover;
+    height: 500px; 
+    background-position:center;  
+    
+
+}   
+/* ============================================= */
+
+.logo_1 {
+    width: 400px;
+    margin-left: 50px;
+    border: none;
+}
+/* ============================================= */
+
+
+i{
+    font-size: 23px;
+    color: #38040e;
+}
+/* ====================================================== */
+
+.background-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+    position: relative;
+    width: 100%;
+    height: 100vh !important;
+}
+
+
+h1 {
+    font-size: 3rem;
+}
+
+p {
+    font-size: 15px;
+}
+
+/* Additional styling can be applied for your specific design */
+/* ========================================== */
+.txt_area{
+    width: 100%;
+}
+input{
+    padding: 10px ;
+    width: 100%;
+    height: 40px;
+    color: #38040e;
+    border: solid 1px #182628;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+textarea{
+    padding: 10px ;
+    width: 100%;
+    height: 100px;
+    color: #38040e;
+    border: solid 1px #182628;
+    border-radius: 5px;
+
+}
+/* ========container============== */
+#send_msg{
+    position:absolute;
+    z-index: 1111;
+    width: 500px;
+    height: 500px;
+    padding: 2rem;
+    border-radius: 10px;
+    backdrop-filter: blur(4px);
+    color: #571825;
+    font-weight: 600px;
+    box-shadow: 0 0 2em 0 rgb(0, 0, 0, 0.3);
+    margin-bottom: 50px;
+    transition: 0.1s;
+    margin-top: 70px;
+    border: solid 2px #182628;
+    box-shadow: 0 0 2em 0 rgba(59, 53, 126, 0.3);
+}
+.submit{
+    width: 100%;
+    height: 40px;
+    background-color: #182628!important;
+    color: white;
+    margin-top: 15px;
+    border: none;
+    border-radius: 5px;
+    transition: all 0.4s;
+    cursor: pointer;
+}
+.submit:hover{
+    color: #Fff;
+    opacity: 0.5;
+    background-color: #fff;
+    border: solid 2px #182628;
+    box-shadow:0 0 2em 0 rgb(0, 102, 228, 0.4),0 0 3em 0 rgb(0, 102, 228, 0.5);
+
+}
+.submit:active{
+    background-color:rgba(193, 176, 158, 0.55)!important;
+    color: #182628;
+}
+.copyright{
+    position: fixed;
+    top: 95%;
+    left: 40%;
+}
+@media (max-width:768px){
+    #send_msg{
+        width: 340px;
+        height: 480px;
+        margin-top: 75px;
+    }
+    .copyright{
+        position: fixed;
+        top: 95%;
+        left: 15%;
+    }
+    .mail-id{
+        font-size: 13px !important;
+    }
+    .line{
+        width: 282px !important;
+    }
+
+}
+.line{
+    height: 2px;
+    width: 430px;
+    background-color:#182628;
+    margin-bottom: 6px;
+    margin-top: 0;
+}
+.me{
+    color:#345055 ;
+}

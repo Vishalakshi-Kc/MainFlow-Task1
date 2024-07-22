@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px; 
+}
+
+body{
+    background-color: #17252a;
+    background-image:linear-gradient(rgba(193, 176, 158, 0.55),rgba(193, 176, 158, 0.55)),url(/Images/main.jpg);
+    background-size:cover;
+    height: 500px; 
+    background-position:center;  
+}
+
+nav
+{
+    height:58px;
+    width:100%;
+    margin-top:0px;
+    font-size:150%;
+    position:fixed;
+    display:flex;
+    align-items:center;
+    justify-content:flex-end;
+}
+
+.ul
+{
+    list-style-type:none;
+    display: flex;  
+}
+
+.li
+{
+ padding-left:0px;
+ padding-right:30px;
+
+}
+
+.an
+{
+    text-decoration:none; 
+    font-weight:bold;
+    position: relative;
+    color:#124e66;
+    transition: all 2s;
+}
+.an:hover{
+    color:#17252a;
+    font-size: 90%;
+}
+.an:active{
+  color: #2e2e17;
+}
+
+
+.logo
+{
+    margin-right:auto; 
+    padding-top:35px;
+    margin-left: -25px !important;
+    height:270px;
+}
+
+
+.content{
+    padding-top: 180px;
+    width:100%;
+    top:50;
+    transform: translateY(-50);
+    text-align: center;
+    color:rgb(145, 177, 204);
+}
+
+.content h1{
+    font-size: 45px;
+    margin-top:80px;
+    color: #182628;
+}
+
+.content p{
+    line-height:25px;
+    margin: 20px auto;
+    font-weight:bold;
+    font-size: 100%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:#2e2e17;
+}
+
